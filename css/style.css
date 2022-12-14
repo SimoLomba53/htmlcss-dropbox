@@ -20,6 +20,7 @@ header{
 }
 
 .small-conteiner{
+    background-color: black;
     margin:auto;
     height:25vw;
     width:70vw;
@@ -34,10 +35,11 @@ header{
 
 }
 
-.right-small_part{
+.right-small-part{
     width:60%;
     height:100%;
-    background-image:url(/img/jumbo.png);
+    
+    
 }
 
 .section-2{
