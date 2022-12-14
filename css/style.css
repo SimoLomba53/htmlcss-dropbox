@@ -93,23 +93,60 @@ header{
 
 .section-3{
     width:100vw;
-    height:250vh;
+    height:200vh;
 }
 
 .column-conteiner-2{
-    width:65vw;
+    width:67vw;
     display:flex;
     justify-content:space-around;
     gap:0px;
     margin:auto;
+    flex-wrap: wrap;
+    margin-top:60vh;
     
     
 }
 
 .column-2{
-    width:10vw;
+    width:20vw;
     height:60vh;
-    margin-top:40vh;
+    margin-top:5vh;;
     background-color:yellow;
     
+    
+}
+
+.client-conteiner{
+    margin:auto;
+    margin-top:10vh;
+    width:65vw;
+    height:25vh;
+    background-color:yellow;
+}
+
+.section-4{
+    width:100vw;
+    height:200vh;
+
+}
+
+.image-conteiner{
+    width:100vw;
+    display:flex;
+    justify-content:center;
+
+}
+
+.image-quad{
+    width:600px;
+    height:600px;
+    background-color: blueviolet;
+    border: 1px solid white;
+}
+
+.image-inside{
+    width:150px;
+    height:150px;
+    border: 1px solid white;
 }
