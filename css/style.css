@@ -16,32 +16,46 @@ header{
 .section-1{
     width:100vw;
     height:80vh;
-    background-color:rgb(127, 214, 255)
+    background-color:rgba(180,208,231,255);
 }
 
 .small-conteiner{
-    background-color: black;
     margin:auto;
     height:25vw;
     width:70vw;
     position: relative;
     top:35vh;
+    display: flex;
+    justify-content:center;
 }
 
 .left-small-part{
-    width:40%;
+    width:30%;
     height:100%;
-    background:blue;
 
 }
+
 
 .right-small-part{
-    width:60%;
+    width:70%;
     height:100%;
-    
+}
+
+.right-small-part img{
+    height:70vh;
+}
+
+button{
+    color: white;
+    background-color: rgba(0,97,255,255);
+    padding:2vh;
+    border:1px solid transparent;
+    margin-top:4vh
     
 }
 
+
+/*inizio seconda sezione*/
 .section-2{
     width:100vw;
     height:250vh;
@@ -79,24 +93,46 @@ header{
     margin-top:20vh;
     width:65vw;
     height:55vh;
-    background-color: black;
+    display: flex;
+    justify-content: center;
 }
 
 .left-partner{
     width:60%;
     height:100%;
-    background-color: blue;
 }
 
+.left-partner img{
+     width:35vw; 
+ }
+    
 .right-partner{
-    width:60%;
+    width:40%;
     height:100%;
 }
 
+.right-partner h1{
+    font-weight:bold;
+    font-size:6vh;
+}
+
+.right-partner p{
+    margin-top:5vh;
+}
+
+.partner-button{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    margin-top:5vh;
+
+}
+    
 .section-3{
     width:100vw;
     height:200vh;
 }
+    
 
 .column-conteiner-2{
     width:67vw;
