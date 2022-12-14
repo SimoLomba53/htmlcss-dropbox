@@ -47,8 +47,11 @@ header{
 }
 
 .column-conteiner{
+    width:70vw;
     display:flex;
     justify-content:space-evenly;
+    margin:auto;
+    
     
 }
 
@@ -60,3 +63,11 @@ header{
     
 }
 
+.enterprise-conteiner{
+    margin:auto;
+    margin-top:10vh;
+    width:65vw;
+    height:35vh;
+    background-color:yellow;
+    
+}
