@@ -127,7 +127,7 @@ header{
 
 .section-4{
     width:100vw;
-    height:200vh;
+    height:100vh;
 
 }
 
@@ -139,8 +139,8 @@ header{
 }
 
 .image-quad{
-    width:600px;
-    height:600px;
+    width:650px;
+    height:650px;
     background-color: blueviolet;
     border: 1px solid white;
 }
@@ -151,7 +151,25 @@ header{
 }
 
 .image-inside{
-    width:300px;
-    height:300px;
+    width:325px;
+    height:325px;
     border: 1px solid white;
+}
+
+.prova-gratuita{
+    width:100vw;
+    height:325px;
+    background-color: aqua;
+}
+
+.question{
+    width:100vw;
+    height: 60vh;
+    background-color: aliceblue;
+}
+
+footer{
+    width:100vw;
+    height:50vh;
+    background-color: black;
 }
