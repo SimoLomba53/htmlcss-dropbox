@@ -2,7 +2,9 @@ body{
     background-color: white;
 }
 
-
+button:hover{
+    filter:brightness(1.5);
+}
 
 header{
     background-color: white;
@@ -83,10 +85,6 @@ button{
     
 }
 
-.annulla{
-
-}
-
 
 /*inizio seconda sezione*/
 .section-2{
@@ -94,6 +92,17 @@ button{
     height:250vh;
 
 }
+
+#plan-title{
+    text-align:center;
+    position:relative;
+    top:18vh;
+    right:10vw;
+    font-size:3vw;
+    font-weight:bold;
+}
+
+
 
 .column-conteiner{
     width:70vw;
