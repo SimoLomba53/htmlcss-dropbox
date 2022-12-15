@@ -75,7 +75,7 @@ button{
     width:20vw;
     height:120vh;
     margin-top:40vh;
-    background-color:yellow;
+    border: 1px solid grey;
     
 }
 
@@ -146,22 +146,61 @@ button{
     
 }
 
+#section-3-title{
+    position:relative;
+    text-align:center;
+    right:10vw;
+    top:60vh;
+    font-size:5vh;
+    font-weight:bold;
+}
+
+
+
+
 .column-2{
     width:20vw;
     height:60vh;
     margin-top:5vh;;
-    background-color:yellow;
     
     
 }
+
+.column-2 img{
+    width:100%;
+}
+
+.column-2 h1{
+    font-weight:bold;
+    font-size:3vh;
+    
+}
+
+.column-2 p{
+    margin-top:3vh;
+    
+}
+
 
 .client-conteiner{
     margin:auto;
     margin-top:10vh;
     width:65vw;
     height:25vh;
-    background-color:yellow;
 }
+
+.client-conteiner h1{
+    font-weight:bold;
+    font-size:5vh;
+}
+
+.client-link{
+    position:relative;
+    top:6vh
+}
+
+
+
 
 .section-4{
     width:100vw;
@@ -179,8 +218,7 @@ button{
 .image-quad{
     width:650px;
     height:650px;
-    background-color: blueviolet;
-    border: 1px solid white;
+   
 }
 
 .division{
@@ -190,15 +228,111 @@ button{
 
 .image-inside{
     width:325px;
-    height:325px;
-    border: 1px solid white;
+    height:325px;;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+/*color-setup*/
+.green{
+    background-color: #a2d39b;
+}
+
+.magenta{
+    background-color:#61082b ;
+
+}
+
+.blue{
+    background-color:#0093ce ;
+
+}
+
+.red{
+    background-color:#ff1c1c ;
+
+}
+
+.fire{
+   background-color:#d5001f ;
+}
+
+.cielo{
+    background-color:#b4d0e7;
+
+
+}
+
+.darkblue{
+    background-color: #0d2481;
+
+}
+
+.yellow{
+    background-color: #ffd830;
+
+}
+
+.grey{
+    background-color:#f5f5f5;
+}
+
+.grey img{
+    margin-left:2vw;
+    margin-top:2vh;
+}
+
+.grey p{
+    margin-left:2vw;
+    margin-top:6vh;
+    font-size:1.6vw;
+}
+
+
+.image-inside img{
+    text-align:center;
+    width:50%;
+    height:50%;
+    
 }
 
 .prova-gratuita{
     width:100vw;
     height:325px;
-    background-color: aqua;
+    background-color:rgb(180 208 231);
 }
+
+.prova-conteiner{
+    width:65vw;
+    height:100%;
+    margin:auto;
+    display:flex;
+    
+    
+
+    
+}
+
+.prova-left{
+    width:50%;
+    height:287px;
+    font-size:4vh;
+    margin-top:10vh;
+    color: rgb(93 2 38);
+    
+}
+
+
+
+.prova-right{
+    width:40%;
+    height:287px;
+    margin-left:18vw;
+    margin-top:7vh;
+    
+}
+
+
 
 .question{
     width:100vw;
