@@ -5,7 +5,7 @@ body{
 
 
 header{
-    background-color: grey;
+    background-color: white;
     width:100vw;
     height:10vh;
     display:flex;
@@ -84,20 +84,84 @@ button{
     width:20vw;
     height:120vh;
     margin-top:40vh;
-    border: 1px solid grey;
+    border: 1px solid #d5d5d8;
 }
+
+.plans{
+    text-align:center;
+    width:100%;
+    border-bottom:1px solid #d5d5d8;
+}
+
+.info-plans{
+    margin-top:4vh;
+    margin-left:1vw;
+    
+}
+
+.info-plans h1{
+    font-size:6vh;
+    font-weight:bold;
+}
+
+.info-plans h3{
+    font-weight:bold;
+    margin-top:2vh;
+    font-size:3vh;
+}
+
+.mese{
+    color:#868e9a;
+}
+
+.criteri{
+    margin-top:4vh;
+    font-size:1vw;
+}
+
+.info-plans button{
+    margin-top:7vh;
+    width:18vw;
+}
+.info-plans span{
+    position:relative;
+    top:2vh;
+}
+
+.info-plans a{
+    position:relative;
+    top:2vh;
+}
+
+.important-point{
+    margin-bottom:12vh;
+    position:relative;
+    top:8vh
+}
+
+.point{
+    margin-top:5vh;
+}
+
+hr{
+    width:2.5vw;
+    position:relative;
+    top:6vh;
+    color: #d5d5d8;
+}
+
 
 .enterprise-conteiner{
     margin:auto;
     margin-top:10vh;
     width:65vw;
     height:35vh;
-    border:1px solid black;
+    border:1px solid #d5d5d8;
 }
 
 .prisetop{
         text-align:center;
-        border-bottom:1px solid black;
+        border-bottom:1px solid #d5d5d8;
         padding:1vh;
 }
 
@@ -107,7 +171,8 @@ button{
 
 .priseleft{
     width:70%;
-    height:80%
+    height:80%;
+    margin-left:1vw;
 }
 
 .priseleft h1{
@@ -172,7 +237,7 @@ button{
     
 .section-3{
     width:100vw;
-    height:200vh;
+    height:180vh;
 }
     
 
@@ -380,7 +445,35 @@ button{
     width:100vw;
     height: 60vh;
     background-color: aliceblue;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center
 }
+
+.question h1{
+    font-size:5vh;
+    font-weight:bold;
+    margin-bottom:2vh;
+    
+}
+
+.question details{
+    margin-bottom:3vh;
+    font-weight:bold;
+    border-top:0.5px solid #b8b8b8;
+    
+ 
+}
+.question summary{
+    margin-top:3vh;
+}
+
+.last-summary{
+    border-bottom:0.5px solid #b8b8b8;
+    padding-bottom:3vh;
+}
+
 
 footer{
     width:100vw;
