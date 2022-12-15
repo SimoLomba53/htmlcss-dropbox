@@ -76,7 +76,6 @@ button{
     height:120vh;
     margin-top:40vh;
     border: 1px solid grey;
-    
 }
 
 .enterprise-conteiner{
@@ -84,10 +83,44 @@ button{
     margin-top:10vh;
     width:65vw;
     height:35vh;
-    background-color:yellow;
+    border:1px solid black;
+}
+
+.prisetop{
+        text-align:center;
+        border-bottom:1px solid black;
+        padding:1vh;
+}
+
+.flexprise{
+    display:flex;
+}
+
+.priseleft{
+    width:70%;
+    height:80%
+}
+
+.priseleft h1{
+    font-weight:bold;
+    font-size:5vh;
+    margin-top:3vh;
+}
+
+.priseleft h3{
+    font-weight:bold;
+    margin-top:3vh
     
 }
 
+.priseleft p{
+    margin-top:7vh;
+}
+
+.priseright{
+    width:30%;
+    height:80%;
+}
 .partner-conteiner{
     margin:auto;
     margin-top:20vh;
@@ -342,6 +375,27 @@ button{
 
 footer{
     width:100vw;
-    height:50vh;
+    height:70vh;
     background-color: black;
+    display:flex;
+    justify-content:center;
+    gap:6vw;
+}
+
+footer div{
+    color:white;
+    margin-top:8vh;
+
+    
+}
+
+footer h1{
+    font-size:5vh;
+    margin-bottom:3vh;
+    font-weight:bold;
+}
+
+footer p{
+    font-size:3vh;
+    margin-bottom:2vh;
 }
